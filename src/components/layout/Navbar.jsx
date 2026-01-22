@@ -16,13 +16,12 @@ export default function Navbar() {
       <div className="container-custom">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-primary-600 rounded-full flex items-center justify-center">
-              <span className="text-white font-display font-bold text-lg">TT</span>
-            </div>
-            <span className="font-display font-bold text-xl text-gray-900">
-              Tiny Tummies
-            </span>
+          <Link to="/" className="flex items-center">
+            <img
+              src="/hench-baby/logo.png"
+              alt="Tiny Tummies"
+              className="h-12 md:h-14 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}

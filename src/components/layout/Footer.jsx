@@ -58,13 +58,12 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
           {/* Brand */}
           <div className="col-span-2 md:col-span-2">
-            <Link to="/" className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-primary-500 rounded-full flex items-center justify-center">
-                <span className="text-white font-display font-bold text-lg">TT</span>
-              </div>
-              <span className="font-display font-bold text-xl">
-                Tiny Tummies
-              </span>
+            <Link to="/" className="inline-block">
+              <img
+                src="/hench-baby/logo.png"
+                alt="Tiny Tummies"
+                className="h-14 w-auto brightness-0 invert"
+              />
             </Link>
             <p className="mt-4 text-gray-400 text-sm max-w-xs">
               Lovingly crafted organic baby food for happy, healthy little ones. Nourishing every stage of your baby's journey.
