@@ -1,4 +1,5 @@
 import { Button, Card } from '../components/shared'
+import familyPhoto from '../../us.jpg'
 
 const values = [
   {
@@ -109,11 +110,15 @@ export default function About() {
               </p>
             </div>
             <div className="relative">
-              <div className="aspect-square rounded-3xl bg-gradient-to-br from-primary-200 to-secondary-200 flex items-center justify-center">
-                <div className="text-center">
-                  <span className="text-[100px]">👨‍👩‍👧</span>
-                  <p className="text-primary-700 font-medium mt-4">The Anderson Family</p>
-                </div>
+              <div className="aspect-square rounded-3xl overflow-hidden shadow-lg bg-gray-100">
+                <img
+                  src={familyPhoto}
+                  alt="The Anderson family"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 bg-white/90 backdrop-blur px-4 py-2 rounded-full shadow-md">
+                <p className="text-primary-700 font-medium">The Anderson Family</p>
               </div>
             </div>
           </div>

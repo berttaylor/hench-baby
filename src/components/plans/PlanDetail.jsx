@@ -74,6 +74,9 @@ export default function PlanDetail({ plan, products, onClose }) {
                       <p className="text-sm text-gray-500">
                         Stage {product.stage} • {product.type}
                       </p>
+                      <p className="text-xs text-gray-500 mt-1">
+                        Ingredients: {product.ingredients.join(', ')}
+                      </p>
                     </div>
                     <div className="text-right">
                       <span className="text-sm font-medium text-gray-900">
@@ -83,6 +86,9 @@ export default function PlanDetail({ plan, products, onClose }) {
                   </div>
                 ))}
               </div>
+              <p className="text-xs text-gray-500 mt-4">
+                Always check ingredients for allergens and introduce new foods one at a time.
+              </p>
             </div>
 
             {/* Nutrition Summary */}

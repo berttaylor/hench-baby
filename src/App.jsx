@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import MealPlans from './pages/MealPlans'
 import HowItWorks from './pages/HowItWorks'
 import About from './pages/About'
+import Delivery from './pages/Delivery'
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <Route index element={<Home />} />
         <Route path="plans" element={<MealPlans />} />
         <Route path="how-it-works" element={<HowItWorks />} />
+        <Route path="delivery" element={<Delivery />} />
         <Route path="about" element={<About />} />
         {/* Redirect old build route for backwards compatibility */}
         <Route path="build" element={<Navigate to="/plans" replace />} />
