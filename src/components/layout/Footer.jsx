@@ -53,6 +53,8 @@ const socialLinks = [
 ]
 
 export default function Footer() {
+  const baseUrl = import.meta.env.BASE_URL
+
   return (
     <footer className="bg-gray-900 text-white">
       <div className="container-custom py-12 md:py-16">
@@ -61,7 +63,7 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-2">
             <Link to="/" className="inline-block">
               <img
-                src="/hench-baby/logo.png"
+                src={`${baseUrl}logo.png`}
                 alt="Tiny Tummies"
                 className="h-14 w-auto brightness-0 invert"
               />

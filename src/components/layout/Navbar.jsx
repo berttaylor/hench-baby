@@ -11,6 +11,7 @@ const navLinks = [
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const baseUrl = import.meta.env.BASE_URL
 
   return (
     <nav className="bg-white shadow-sm sticky top-0 z-50">
@@ -19,7 +20,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <img
-              src="/hench-baby/logo.png"
+              src={`${baseUrl}logo.png`}
               alt="Tiny Tummies"
               className="h-12 md:h-14 w-auto"
             />
