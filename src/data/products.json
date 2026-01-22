@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "name": "Sweet Potato Power-Up",
+    "stage": 1,
+    "type": "puree",
+    "focus": ["energy", "vitamins"],
+    "price": 4.99,
+    "description": "Smooth, creamy sweet potato packed with beta-carotene and natural energy.",
+    "ingredients": ["Organic Sweet Potato", "Organic Coconut Oil"],
+    "nutrition": {
+      "calories": 80,
+      "protein": 1,
+      "carbs": 15,
+      "fat": 2,
+      "fiber": 2
+    },
+    "emoji": "🍠"
+  },
+  {
+    "id": 2,
+    "name": "Avocado Dream",
+    "stage": 1,
+    "type": "puree",
+    "focus": ["healthy-fats", "brain"],
+    "price": 5.49,
+    "description": "Creamy avocado for brain-boosting healthy fats and smooth texture.",
+    "ingredients": ["Organic Avocado", "Organic Lemon Juice"],
+    "nutrition": {
+      "calories": 120,
+      "protein": 1,
+      "carbs": 6,
+      "fat": 11,
+      "fiber": 5
+    },
+    "emoji": "🥑"
+  },
+  {
+    "id": 3,
+    "name": "Pea Protein Punch",
+    "stage": 1,
+    "type": "puree",
+    "focus": ["protein", "iron"],
+    "price": 4.79,
+    "description": "Iron-rich peas blended smooth for easy digestion and muscle growth.",
+    "ingredients": ["Organic Green Peas", "Organic Olive Oil"],
+    "nutrition": {
+      "calories": 70,
+      "protein": 4,
+      "carbs": 10,
+      "fat": 2,
+      "fiber": 3
+    },
+    "emoji": "🫛"
+  },
+  {
+    "id": 4,
+    "name": "Banana Muscle",
+    "stage": 1,
+    "type": "puree",
+    "focus": ["energy", "potassium"],
+    "price": 4.29,
+    "description": "Naturally sweet banana for quick energy and essential potassium.",
+    "ingredients": ["Organic Banana"],
+    "nutrition": {
+      "calories": 90,
+      "protein": 1,
+      "carbs": 22,
+      "fat": 0,
+      "fiber": 2
+    },
+    "emoji": "🍌"
+  },
+  {
+    "id": 5,
+    "name": "Carrot Crunch",
+    "stage": 1,
+    "type": "puree",
+    "focus": ["vitamins", "immunity"],
+    "price": 4.49,
+    "description": "Sweet carrot puree loaded with vitamin A for healthy eyes and immune support.",
+    "ingredients": ["Organic Carrots", "Organic Coconut Oil"],
+    "nutrition": {
+      "calories": 60,
+      "protein": 1,
+      "carbs": 12,
+      "fat": 1,
+      "fiber": 2
+    },
+    "emoji": "🥕"
+  },
+  {
+    "id": 6,
+    "name": "Chicken & Sweet Potato Gains",
+    "stage": 2,
+    "type": "meal",
+    "focus": ["protein", "energy"],
+    "price": 6.99,
+    "description": "High-protein chicken with sweet potato for sustained energy and muscle building.",
+    "ingredients": ["Organic Chicken", "Organic Sweet Potato", "Organic Olive Oil", "Organic Thyme"],
+    "nutrition": {
+      "calories": 140,
+      "protein": 10,
+      "carbs": 14,
+      "fat": 5,
+      "fiber": 2
+    },
+    "emoji": "🍗"
+  },
+  {
+    "id": 7,
+    "name": "Beef & Broccoli Builder",
+    "stage": 2,
+    "type": "meal",
+    "focus": ["protein", "iron"],
+    "price": 7.49,
+    "description": "Iron-rich grass-fed beef with superfood broccoli for serious nutrition.",
+    "ingredients": ["Grass-Fed Organic Beef", "Organic Broccoli", "Organic Bone Broth"],
+    "nutrition": {
+      "calories": 150,
+      "protein": 12,
+      "carbs": 8,
+      "fat": 8,
+      "fiber": 2
+    },
+    "emoji": "🥩"
+  },
+  {
+    "id": 8,
+    "name": "Salmon Brain Boost",
+    "stage": 2,
+    "type": "meal",
+    "focus": ["brain", "omega-3"],
+    "price": 8.99,
+    "description": "Wild-caught salmon with squash for omega-3s and brain development.",
+    "ingredients": ["Wild Salmon", "Organic Butternut Squash", "Organic Dill"],
+    "nutrition": {
+      "calories": 160,
+      "protein": 14,
+      "carbs": 10,
+      "fat": 7,
+      "fiber": 2
+    },
+    "emoji": "🐟"
+  },
+  {
+    "id": 9,
+    "name": "Turkey Veggie Power Bowl",
+    "stage": 2,
+    "type": "meal",
+    "focus": ["protein", "vitamins"],
+    "price": 6.79,
+    "description": "Lean turkey with a rainbow of vegetables for complete nutrition.",
+    "ingredients": ["Organic Turkey", "Organic Carrots", "Organic Zucchini", "Organic Peas"],
+    "nutrition": {
+      "calories": 130,
+      "protein": 11,
+      "carbs": 12,
+      "fat": 4,
+      "fiber": 3
+    },
+    "emoji": "🦃"
+  },
+  {
+    "id": 10,
+    "name": "Apple Spinach Strength",
+    "stage": 2,
+    "type": "puree",
+    "focus": ["iron", "vitamins"],
+    "price": 5.29,
+    "description": "Sweet apple makes iron-rich spinach delicious. Sneaky nutrition!",
+    "ingredients": ["Organic Apple", "Organic Spinach", "Organic Lemon Juice"],
+    "nutrition": {
+      "calories": 70,
+      "protein": 2,
+      "carbs": 15,
+      "fat": 0,
+      "fiber": 3
+    },
+    "emoji": "🍏"
+  },
+  {
+    "id": 11,
+    "name": "Mango Coconut Tropical",
+    "stage": 2,
+    "type": "puree",
+    "focus": ["energy", "healthy-fats"],
+    "price": 5.49,
+    "description": "Tropical mango with coconut cream for energy and healthy fats.",
+    "ingredients": ["Organic Mango", "Organic Coconut Cream"],
+    "nutrition": {
+      "calories": 110,
+      "protein": 1,
+      "carbs": 18,
+      "fat": 5,
+      "fiber": 2
+    },
+    "emoji": "🥭"
+  },
+  {
+    "id": 12,
+    "name": "Lentil Iron Champion",
+    "stage": 2,
+    "type": "meal",
+    "focus": ["protein", "iron"],
+    "price": 5.99,
+    "description": "Plant-powered lentils with vegetables for iron and plant protein.",
+    "ingredients": ["Organic Red Lentils", "Organic Carrots", "Organic Cumin"],
+    "nutrition": {
+      "calories": 120,
+      "protein": 8,
+      "carbs": 18,
+      "fat": 2,
+      "fiber": 6
+    },
+    "emoji": "🫘"
+  },
+  {
+    "id": 13,
+    "name": "Lamb & Root Veggie Feast",
+    "stage": 3,
+    "type": "meal",
+    "focus": ["protein", "iron"],
+    "price": 8.49,
+    "description": "Chunky grass-fed lamb with root vegetables for iron and B12.",
+    "ingredients": ["Grass-Fed Organic Lamb", "Organic Parsnip", "Organic Carrots", "Organic Rosemary"],
+    "nutrition": {
+      "calories": 180,
+      "protein": 14,
+      "carbs": 12,
+      "fat": 9,
+      "fiber": 3
+    },
+    "emoji": "🍖"
+  },
+  {
+    "id": 14,
+    "name": "Chicken Pasta Power",
+    "stage": 3,
+    "type": "meal",
+    "focus": ["protein", "energy"],
+    "price": 7.49,
+    "description": "Soft pasta with chicken and vegetables for a complete mini-meal.",
+    "ingredients": ["Organic Chicken", "Organic Whole Wheat Pasta", "Organic Tomatoes", "Organic Basil"],
+    "nutrition": {
+      "calories": 190,
+      "protein": 12,
+      "carbs": 22,
+      "fat": 6,
+      "fiber": 3
+    },
+    "emoji": "🍝"
+  },
+  {
+    "id": 15,
+    "name": "Beef Stew Strong",
+    "stage": 3,
+    "type": "meal",
+    "focus": ["protein", "iron", "vitamins"],
+    "price": 8.99,
+    "description": "Hearty beef stew with soft chunks for developing chewing skills.",
+    "ingredients": ["Grass-Fed Organic Beef", "Organic Potatoes", "Organic Carrots", "Organic Celery", "Organic Bone Broth"],
+    "nutrition": {
+      "calories": 200,
+      "protein": 15,
+      "carbs": 16,
+      "fat": 9,
+      "fiber": 3
+    },
+    "emoji": "🍲"
+  },
+  {
+    "id": 16,
+    "name": "Fish Pie Mini",
+    "stage": 3,
+    "type": "meal",
+    "focus": ["brain", "omega-3", "protein"],
+    "price": 8.79,
+    "description": "Flaky white fish with creamy potato topping. Brain food at its best.",
+    "ingredients": ["Wild Cod", "Organic Potatoes", "Organic Butter", "Organic Peas", "Organic Dill"],
+    "nutrition": {
+      "calories": 170,
+      "protein": 13,
+      "carbs": 18,
+      "fat": 6,
+      "fiber": 2
+    },
+    "emoji": "🥧"
+  },
+  {
+    "id": 17,
+    "name": "Veggie Mac & Cheese",
+    "stage": 3,
+    "type": "meal",
+    "focus": ["calcium", "energy"],
+    "price": 6.99,
+    "description": "Creamy mac and cheese with hidden veggies for picky eaters.",
+    "ingredients": ["Organic Whole Wheat Pasta", "Organic Cheddar", "Organic Butternut Squash", "Organic Cauliflower"],
+    "nutrition": {
+      "calories": 180,
+      "protein": 8,
+      "carbs": 24,
+      "fat": 6,
+      "fiber": 3
+    },
+    "emoji": "🧀"
+  },
+  {
+    "id": 18,
+    "name": "Berry Blast Yogurt",
+    "stage": 3,
+    "type": "snack",
+    "focus": ["calcium", "probiotics"],
+    "price": 4.99,
+    "description": "Probiotic-rich Greek yogurt with mixed berries for gut health.",
+    "ingredients": ["Organic Greek Yogurt", "Organic Blueberries", "Organic Strawberries"],
+    "nutrition": {
+      "calories": 100,
+      "protein": 6,
+      "carbs": 14,
+      "fat": 2,
+      "fiber": 2
+    },
+    "emoji": "🫐"
+  },
+  {
+    "id": 19,
+    "name": "Egg & Veggie Scramble",
+    "stage": 3,
+    "type": "meal",
+    "focus": ["protein", "brain"],
+    "price": 5.99,
+    "description": "Fluffy scrambled eggs with soft veggies for breakfast or anytime.",
+    "ingredients": ["Organic Eggs", "Organic Spinach", "Organic Tomatoes", "Organic Butter"],
+    "nutrition": {
+      "calories": 140,
+      "protein": 10,
+      "carbs": 4,
+      "fat": 10,
+      "fiber": 1
+    },
+    "emoji": "🍳"
+  },
+  {
+    "id": 20,
+    "name": "Quinoa Veggie Bowl",
+    "stage": 3,
+    "type": "meal",
+    "focus": ["protein", "fiber"],
+    "price": 6.49,
+    "description": "Complete protein quinoa with colorful vegetables for plant-powered nutrition.",
+    "ingredients": ["Organic Quinoa", "Organic Black Beans", "Organic Corn", "Organic Bell Peppers"],
+    "nutrition": {
+      "calories": 160,
+      "protein": 7,
+      "carbs": 26,
+      "fat": 3,
+      "fiber": 5
+    },
+    "emoji": "🥗"
+  }
+]
