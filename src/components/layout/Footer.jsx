@@ -10,13 +10,14 @@ const footerLinks = {
   company: [
     { name: 'About Us', to: '/about' },
     { name: 'How It Works', to: '/how-it-works' },
+    { name: 'Delivery', to: '/delivery' },
     { name: 'Our Ingredients', to: '/about' },
     { name: 'Blog', to: '/' },
   ],
   support: [
     { name: 'Contact Us', to: '/' },
     { name: 'FAQs', to: '/how-it-works' },
-    { name: 'Shipping Info', to: '/how-it-works' },
+    { name: 'Shipping Info', to: '/delivery' },
     { name: 'Returns', to: '/' },
   ],
 }

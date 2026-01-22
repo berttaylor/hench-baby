@@ -5,6 +5,7 @@ import { Button } from '../shared'
 const navLinks = [
   { name: 'Meal Plans', to: '/plans' },
   { name: 'How It Works', to: '/how-it-works' },
+  { name: 'Delivery', to: '/delivery' },
   { name: 'About', to: '/about' },
 ]
 
