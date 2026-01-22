@@ -8,19 +8,18 @@ export default function Hero() {
           {/* Content */}
           <div className="text-center lg:text-left">
             <span className="inline-block px-4 py-1.5 bg-primary-100 text-primary-700 text-sm font-medium rounded-full mb-6">
-              Organic & Nutrient-Dense
+              Organic & Lovingly Made
             </span>
             <h1 className="heading-1 text-gray-900 mb-6">
-              Build Strong Babies,{' '}
-              <span className="text-primary-600">One Bite at a Time</span>
+              Nourishing Little Ones,{' '}
+              <span className="text-primary-600">One Spoonful at a Time</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-xl mx-auto lg:mx-0">
-              Premium organic baby food packed with protein, healthy fats, and essential nutrients.
-              Because your little one deserves to be hench.
+              Discover our curated meal plans of organic baby food, thoughtfully designed for every stage of your little one's weaning journey.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button to="/build" size="lg">
-                Build Your Box
+              <Button to="/plans" size="lg">
+                Explore Meal Plans
               </Button>
               <Button to="/how-it-works" variant="secondary" size="lg">
                 See How It Works
@@ -71,7 +70,7 @@ export default function Hero() {
 
               {/* Floating badges */}
               <div className="absolute top-10 -left-4 bg-white rounded-2xl shadow-lg p-3 animate-bounce">
-                <span className="text-2xl">💪</span>
+                <span className="text-2xl">🥣</span>
               </div>
               <div className="absolute bottom-20 -right-4 bg-white rounded-2xl shadow-lg p-3 animate-bounce delay-300">
                 <span className="text-2xl">🥕</span>

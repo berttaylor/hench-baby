@@ -3,21 +3,21 @@ import { Button } from '../shared'
 const steps = [
   {
     number: '01',
-    title: 'Build Your Box',
-    description: 'Choose from 20+ organic purees and meals. Mix and match across all stages.',
-    icon: '📦',
+    title: 'Choose Your Plan',
+    description: 'Pick a curated meal plan that matches your baby\'s stage and needs.',
+    icon: '🥣',
   },
   {
     number: '02',
     title: 'We Deliver Fresh',
-    description: 'Your custom box ships free to your door, packed with love (and ice packs).',
+    description: 'Your meals ship free to your door, packed with love (and ice packs).',
     icon: '🚚',
   },
   {
     number: '03',
-    title: 'Baby Gets Hench',
-    description: 'Watch your little one thrive on nutrient-dense, delicious food.',
-    icon: '💪',
+    title: 'Happy Mealtimes',
+    description: 'Watch your little one discover delicious, nutritious food.',
+    icon: '😊',
   },
 ]
 
@@ -30,7 +30,7 @@ export default function HowItWorks() {
             How It Works
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Getting started is easy. Build your perfect box in under 2 minutes.
+            Getting started is easy. Choose your perfect plan in under 2 minutes.
           </p>
         </div>
 
@@ -65,8 +65,8 @@ export default function HowItWorks() {
         </div>
 
         <div className="text-center">
-          <Button to="/build" size="lg">
-            Start Building
+          <Button to="/plans" size="lg">
+            Explore Meal Plans
           </Button>
         </div>
       </div>

@@ -1,10 +1,10 @@
 const posts = [
-  { emoji: '🥦', caption: 'Green machine loading...' },
-  { emoji: '💪', caption: 'Gains in progress' },
-  { emoji: '🥕', caption: 'Carrot power!' },
+  { emoji: '🥦', caption: 'Green goodness loading...' },
+  { emoji: '🥣', caption: 'First tastes!' },
+  { emoji: '🥕', caption: 'Carrot smiles!' },
   { emoji: '😋', caption: 'Yum yum yum' },
   { emoji: '🍠', caption: 'Sweet potato dreams' },
-  { emoji: '🥑', caption: 'Healthy fats for the win' },
+  { emoji: '🥑', caption: 'Happy tummies' },
 ]
 
 export default function Instagram() {
@@ -13,10 +13,10 @@ export default function Instagram() {
       <div className="container-custom">
         <div className="text-center mb-12">
           <h2 className="heading-2 text-gray-900 mb-4">
-            @HenchBabyCo
+            @TinyTummies
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Follow us for feeding tips, recipes, and adorable hench babies in action.
+            Follow us for feeding tips, recipes, and adorable happy little ones in action.
           </p>
         </div>
 

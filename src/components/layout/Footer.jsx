@@ -2,10 +2,10 @@ import { Link } from 'react-router-dom'
 
 const footerLinks = {
   shop: [
-    { name: 'Build Your Box', to: '/build' },
-    { name: 'Stage 1 (4-6 months)', to: '/build?stage=1' },
-    { name: 'Stage 2 (6-9 months)', to: '/build?stage=2' },
-    { name: 'Stage 3 (9+ months)', to: '/build?stage=3' },
+    { name: 'All Meal Plans', to: '/plans' },
+    { name: 'Stage 1 (4-6 months)', to: '/plans?stage=1' },
+    { name: 'Stage 2 (6-9 months)', to: '/plans?stage=2' },
+    { name: 'Stage 3 (9+ months)', to: '/plans?stage=3' },
   ],
   company: [
     { name: 'About Us', to: '/about' },
@@ -60,14 +60,14 @@ export default function Footer() {
           <div className="col-span-2 md:col-span-2">
             <Link to="/" className="flex items-center space-x-2">
               <div className="w-10 h-10 bg-primary-500 rounded-full flex items-center justify-center">
-                <span className="text-white font-display font-bold text-lg">HB</span>
+                <span className="text-white font-display font-bold text-lg">TT</span>
               </div>
               <span className="font-display font-bold text-xl">
-                Hench Baby
+                Tiny Tummies
               </span>
             </Link>
             <p className="mt-4 text-gray-400 text-sm max-w-xs">
-              Nutrient-dense, organic baby food crafted for strong, healthy little ones. Because every baby deserves to be hench.
+              Lovingly crafted organic baby food for happy, healthy little ones. Nourishing every stage of your baby's journey.
             </p>
             <div className="flex space-x-4 mt-6">
               {socialLinks.map((social) => (
@@ -144,7 +144,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            &copy; {new Date().getFullYear()} Hench Baby Co. All rights reserved.
+            &copy; {new Date().getFullYear()} Tiny Tummies. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">

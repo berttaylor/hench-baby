@@ -12,7 +12,7 @@ export default function PromoBanner() {
           <span className="hidden sm:inline">Free shipping on your first box! </span>
           <span className="sm:hidden">Free shipping on first box! </span>
           <span className="underline cursor-pointer hover:no-underline">
-            Use code HENCHBABY
+            Use code TINYTUMMIES
           </span>
         </p>
         <button

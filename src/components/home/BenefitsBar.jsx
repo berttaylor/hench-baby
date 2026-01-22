@@ -5,9 +5,9 @@ const benefits = [
     description: 'USDA certified organic ingredients',
   },
   {
-    icon: '💪',
-    title: 'High Protein',
-    description: 'Essential for muscle development',
+    icon: '🌟',
+    title: 'Balanced Nutrition',
+    description: 'Everything growing bodies need',
   },
   {
     icon: '🧠',

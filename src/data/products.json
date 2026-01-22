@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Sweet Potato Power-Up",
+    "name": "Sweet Potato Sunshine",
     "stage": 1,
     "type": "puree",
     "focus": ["energy", "vitamins"],
@@ -37,7 +37,7 @@
   },
   {
     "id": 3,
-    "name": "Pea Protein Punch",
+    "name": "Garden Pea Delight",
     "stage": 1,
     "type": "puree",
     "focus": ["protein", "iron"],
@@ -55,7 +55,7 @@
   },
   {
     "id": 4,
-    "name": "Banana Muscle",
+    "name": "Happy Banana",
     "stage": 1,
     "type": "puree",
     "focus": ["energy", "potassium"],
@@ -91,7 +91,7 @@
   },
   {
     "id": 6,
-    "name": "Chicken & Sweet Potato Gains",
+    "name": "Chicken & Sweet Potato Medley",
     "stage": 2,
     "type": "meal",
     "focus": ["protein", "energy"],
@@ -109,7 +109,7 @@
   },
   {
     "id": 7,
-    "name": "Beef & Broccoli Builder",
+    "name": "Beef & Broccoli Blend",
     "stage": 2,
     "type": "meal",
     "focus": ["protein", "iron"],
@@ -163,7 +163,7 @@
   },
   {
     "id": 10,
-    "name": "Apple Spinach Strength",
+    "name": "Apple Spinach Swirl",
     "stage": 2,
     "type": "puree",
     "focus": ["iron", "vitamins"],
@@ -199,7 +199,7 @@
   },
   {
     "id": 12,
-    "name": "Lentil Iron Champion",
+    "name": "Lentil Iron Boost",
     "stage": 2,
     "type": "meal",
     "focus": ["protein", "iron"],

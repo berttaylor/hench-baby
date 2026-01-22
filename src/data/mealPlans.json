@@ -1,0 +1,70 @@
+[
+  {
+    "id": "first-tastes",
+    "name": "First Tastes Bundle",
+    "stage": 1,
+    "ageRange": "4-6 months",
+    "description": "Perfect for babies just starting their weaning journey. Five gentle, single-ingredient purees to introduce your little one to the wonderful world of food.",
+    "price": 34.99,
+    "productIds": [1, 2, 3, 4, 5],
+    "features": [
+      "5 organic purees",
+      "Single-ingredient recipes",
+      "Ultra-smooth textures",
+      "Iron-fortified options"
+    ],
+    "badge": "Most Popular",
+    "emoji": "🥣"
+  },
+  {
+    "id": "explorer",
+    "name": "Explorer Bundle",
+    "stage": 2,
+    "ageRange": "6-9 months",
+    "description": "For adventurous little eaters ready to explore new flavours. Seven delicious combinations with proteins and more exciting textures.",
+    "price": 44.99,
+    "productIds": [6, 7, 8, 9, 10, 11, 12],
+    "features": [
+      "7 organic meals & purees",
+      "Protein-rich options",
+      "New texture combinations",
+      "Brain-boosting nutrients"
+    ],
+    "badge": null,
+    "emoji": "🥗"
+  },
+  {
+    "id": "little-foodie",
+    "name": "Little Foodie Bundle",
+    "stage": 3,
+    "ageRange": "9+ months",
+    "description": "For confident little foodies ready for more grown-up meals. Eight hearty dishes with soft chunks to develop chewing skills.",
+    "price": 54.99,
+    "productIds": [13, 14, 15, 16, 17, 18, 19, 20],
+    "features": [
+      "8 organic meals & snacks",
+      "Soft chunky textures",
+      "Complete balanced meals",
+      "Develops chewing skills"
+    ],
+    "badge": "Best Value",
+    "emoji": "🍲"
+  },
+  {
+    "id": "weaning-starter",
+    "name": "Weaning Starter Kit",
+    "stage": null,
+    "ageRange": "4-9 months",
+    "description": "The complete weaning journey in one box. Eight carefully selected items spanning Stage 1 and 2 to guide your baby through their first food adventures.",
+    "price": 59.99,
+    "productIds": [1, 2, 4, 5, 6, 8, 10, 12],
+    "features": [
+      "8 organic items",
+      "Stage 1 & 2 combined",
+      "Progressive textures",
+      "Complete weaning guide"
+    ],
+    "badge": "Complete Journey",
+    "emoji": "🎁"
+  }
+]

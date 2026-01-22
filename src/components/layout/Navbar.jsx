@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom'
 import { Button } from '../shared'
 
 const navLinks = [
-  { name: 'Shop', to: '/build' },
+  { name: 'Meal Plans', to: '/plans' },
   { name: 'How It Works', to: '/how-it-works' },
   { name: 'About', to: '/about' },
 ]
@@ -18,10 +18,10 @@ export default function Navbar() {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="w-10 h-10 bg-primary-600 rounded-full flex items-center justify-center">
-              <span className="text-white font-display font-bold text-lg">HB</span>
+              <span className="text-white font-display font-bold text-lg">TT</span>
             </div>
             <span className="font-display font-bold text-xl text-gray-900">
-              Hench Baby
+              Tiny Tummies
             </span>
           </Link>
 
@@ -46,8 +46,8 @@ export default function Navbar() {
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button to="/build" size="sm">
-              Build Your Box
+            <Button to="/plans" size="sm">
+              Choose a Plan
             </Button>
           </div>
 
@@ -90,8 +90,8 @@ export default function Navbar() {
                 </NavLink>
               ))}
               <div className="px-4 pt-2">
-                <Button to="/build" className="w-full" onClick={() => setIsMobileMenuOpen(false)}>
-                  Build Your Box
+                <Button to="/plans" className="w-full" onClick={() => setIsMobileMenuOpen(false)}>
+                  Choose a Plan
                 </Button>
               </div>
             </div>

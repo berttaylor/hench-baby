@@ -40,10 +40,10 @@ export default function ShopByStage() {
       <div className="container-custom">
         <div className="text-center mb-12">
           <h2 className="heading-2 text-gray-900 mb-4">
-            Shop by Stage
+            Meal Plans for Every Stage
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Our foods are designed to grow with your baby, introducing new textures and flavors at the right time.
+            Our meal plans are designed to grow with your baby, introducing new textures and flavours at the right time.
           </p>
         </div>
 
@@ -51,7 +51,7 @@ export default function ShopByStage() {
           {stages.map((stage) => (
             <Link
               key={stage.stage}
-              to={`/build?stage=${stage.stage}`}
+              to={`/plans?stage=${stage.stage}`}
               className="group"
             >
               <Card hover className="h-full">

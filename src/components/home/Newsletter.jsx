@@ -21,7 +21,7 @@ export default function Newsletter() {
             Get 15% Off Your First Box
           </h2>
           <p className="text-primary-100 text-lg mb-8">
-            Subscribe for exclusive offers, feeding tips, and new product announcements. Welcome to the Hench Baby family!
+            Subscribe for exclusive offers, feeding tips, and new product announcements. Welcome to the Tiny Tummies family!
           </p>
 
           {isSubmitted ? (

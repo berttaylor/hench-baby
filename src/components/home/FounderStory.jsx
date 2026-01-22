@@ -21,7 +21,7 @@ export default function FounderStory() {
             {/* Floating quote */}
             <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl shadow-lg p-6 max-w-xs">
               <p className="text-gray-600 italic text-sm">
-                "We created what we wished existed for our own daughter."
+                "We wished someone would just tell us what to feed her."
               </p>
             </div>
           </div>
@@ -32,20 +32,20 @@ export default function FounderStory() {
               Our Story
             </span>
             <h2 className="heading-2 text-gray-900 mb-6">
-              From Frustrated Parents to Baby Food Revolutionaries
+              From Overwhelmed Parents to Meal Plan Creators
             </h2>
             <div className="space-y-4 text-gray-600 mb-8">
               <p>
-                When our daughter Lily was ready for solids, we were shocked by what we found in the baby food aisle. Watered-down purees, hidden sugars, and barely any protein.
+                When our daughter Lily was ready for solids, we were completely overwhelmed. Every book gave different advice. Every website contradicted the last. We spent more time researching than actually feeding her.
               </p>
               <p>
-                As fitness enthusiasts, we knew nutrition was the foundation of health. Why should our baby eat any differently? She deserved the same quality ingredients we fed ourselves.
+                We wished someone would just tell us what to feed her and when. A simple plan we could trust. So we created one, working with a paediatric nutritionist to design the perfect weaning journey.
               </p>
               <p>
-                So we started making our own: thick, nutrient-dense purees packed with organic proteins, healthy fats, and vegetables. Friends started asking for recipes. Then they asked us to make it for them.
+                Friends started asking for our meal plans. Then they asked us to make the food too. The rest, as they say, is history.
               </p>
               <p className="font-medium text-gray-900">
-                Hench Baby was born from a simple belief: every baby deserves food that helps them grow strong.
+                Tiny Tummies was born from a simple belief: every parent deserves a helping hand, and every baby deserves the best possible start.
               </p>
             </div>
             <Button to="/about">

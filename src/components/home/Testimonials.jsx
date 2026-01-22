@@ -1,22 +1,22 @@
 const testimonials = [
   {
-    quote: "My daughter went from picky to adventurous overnight. The Sweet Potato Power-Up is her absolute favorite!",
+    quote: "My daughter went from picky to adventurous overnight. The Sweet Potato Sunshine is her absolute favourite!",
     author: "Sarah M.",
-    role: "Mom of 8-month-old Emma",
+    role: "Mum of 8-month-old Emma",
     rating: 5,
     avatar: "SM",
   },
   {
-    quote: "Finally, baby food with actual protein! My son is in the 95th percentile for growth and his pediatrician is impressed.",
+    quote: "The meal plans took all the guesswork out of weaning. I finally feel confident about what I'm feeding my son.",
     author: "Michael T.",
     role: "Dad of 11-month-old James",
     rating: 5,
     avatar: "MT",
   },
   {
-    quote: "The convenience of building my own box combined with the quality of ingredients makes this a no-brainer for busy parents.",
+    quote: "Having a curated plan delivered to my door has been a game-changer. The quality is amazing and my twins love it.",
     author: "Jessica L.",
-    role: "Mom of twins, 7 months",
+    role: "Mum of twins, 7 months",
     rating: 5,
     avatar: "JL",
   },
@@ -31,7 +31,7 @@ export default function Testimonials() {
             Parents Love Us
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Join thousands of families raising strong, healthy babies with Hench Baby.
+            Join thousands of families nourishing happy, healthy little ones with Tiny Tummies.
           </p>
         </div>
 

@@ -4,15 +4,15 @@ import { Button, Card } from '../components/shared'
 const steps = [
   {
     number: '01',
-    title: 'Choose Your Products',
-    description: 'Browse our selection of 20+ organic purees and meals. Filter by stage, type, or nutritional focus to find the perfect options for your baby.',
+    title: 'Choose Your Plan',
+    description: 'Browse our curated meal plans designed by nutrition experts. Pick the one that matches your baby\'s stage and dietary needs.',
     details: [
-      'Select from Stage 1, 2, or 3 products',
-      'Mix and match different types',
-      'See nutrition info for each item',
-      'Minimum 6 items per box',
+      'Plans for every weaning stage',
+      'Nutritionist-approved combinations',
+      'See full product details before buying',
+      'Flexible subscription options',
     ],
-    icon: '🛒',
+    icon: '🥣',
     color: 'from-green-400 to-green-600',
   },
   {
@@ -23,22 +23,22 @@ const steps = [
       'Flash-frozen for maximum freshness',
       'Eco-friendly packaging',
       'Insulated boxes with ice packs',
-      'Free shipping on all orders',
+      'Free shipping on all plans',
     ],
     icon: '📦',
     color: 'from-blue-400 to-blue-600',
   },
   {
     number: '03',
-    title: 'Deliver & Enjoy',
-    description: 'Your box arrives at your doorstep, ready to feed your growing baby. Simply thaw, warm, and serve nutrient-dense goodness!',
+    title: 'Happy Mealtimes',
+    description: 'Your box arrives at your doorstep, ready to nourish your growing baby. Simply thaw, warm, and serve delicious goodness!',
     details: [
       'Delivered to your door',
       'Easy thaw-and-serve',
       'Store in freezer up to 3 months',
       'Portion-controlled servings',
     ],
-    icon: '🍽️',
+    icon: '😊',
     color: 'from-purple-400 to-purple-600',
   },
 ]
@@ -47,7 +47,7 @@ const deliveryInfo = [
   {
     icon: '🚚',
     title: 'Free Shipping',
-    description: 'On all orders over 6 items',
+    description: 'On all meal plans',
   },
   {
     icon: '📅',
@@ -76,16 +76,16 @@ const faqs = [
     answer: 'Yes! All our products are USDA Certified Organic. We source from trusted farms and every ingredient is verified organic.',
   },
   {
-    question: 'Can I customize my subscription?',
-    answer: 'Absolutely! You have full control over your box contents. Swap items, adjust quantities, or change your delivery schedule anytime.',
+    question: 'Can I customise my subscription?',
+    answer: 'Absolutely! You have full control over your deliveries. Change your plan, adjust your schedule, or pause anytime through your account.',
   },
   {
     question: 'What if my baby doesn\'t like something?',
     answer: 'We offer a happiness guarantee! If your baby doesn\'t enjoy a product, we\'ll replace it or give you a credit for your next order.',
   },
   {
-    question: 'How do I know which stage is right for my baby?',
-    answer: 'Stage 1 (4-6 months) is for first foods - smooth, single-ingredient purees. Stage 2 (6-9 months) introduces more textures and combinations. Stage 3 (9+ months) has soft chunks for developing chewing skills.',
+    question: 'How do I know which plan is right for my baby?',
+    answer: 'Our First Tastes Bundle (Stage 1) is for babies 4-6 months starting their weaning journey. The Explorer Bundle (Stage 2) is for 6-9 months with more textures. The Little Foodie Bundle (Stage 3) is for 9+ months with soft chunks. Not sure? Try our Weaning Starter Kit which spans both Stage 1 and 2.',
   },
   {
     question: 'Are your products tested for heavy metals?',
@@ -105,7 +105,7 @@ export default function HowItWorks() {
             How It Works
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Getting started with Hench Baby is easy. Build your custom box in under 2 minutes and start feeding your baby the nutrition they deserve.
+            Getting started with Tiny Tummies is easy. Choose your plan in under 2 minutes and start nourishing your little one with the nutrition they deserve.
           </p>
         </div>
       </section>
@@ -236,10 +236,10 @@ export default function HowItWorks() {
             Ready to Get Started?
           </h2>
           <p className="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
-            Join thousands of parents raising strong, healthy babies with Hench Baby.
+            Join thousands of parents nourishing happy, healthy little ones with Tiny Tummies.
           </p>
-          <Button to="/build" variant="white" size="lg">
-            Build Your First Box
+          <Button to="/plans" variant="white" size="lg">
+            Explore Meal Plans
           </Button>
         </div>
       </section>
